@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RZlauncher - Minecraft launcher</title>
+<style>
+  :root { --bg:#0f141b; --card:#18202b; --text:#e8eef5; --muted:#8fa0b3; --accent:#2ecc71; --blue:#3498db; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 0 20px; }
+  header { text-align: center; padding: 70px 0 40px; background: linear-gradient(180deg, #14375e 0%, var(--bg) 100%); }
+  h1 { font-size: 2.6rem; letter-spacing: 1px; }
+  h1 span { color: var(--accent); }
+  .sub { color: var(--muted); margin: 12px auto 28px; max-width: 520px; }
+  .btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; padding: 16px 36px; border-radius: 12px; transition: transform .15s, background .15s; }
+  .btn:hover { background: #27ae60; transform: translateY(-2px); }
+  .meta { color: var(--muted); font-size: .85rem; margin-top: 12px; }
+  h2 { margin: 50px 0 18px; font-size: 1.4rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 14px; }
+  .card { background: var(--card); border-radius: 14px; padding: 20px; }
+  .card b { display: block; margin-bottom: 6px; color: var(--blue); }
+  .card p { color: var(--muted); font-size: .92rem; }
+  ol { padding-left: 22px; }
+  ol li { margin: 8px 0; }
+  .note { background: var(--card); border-left: 4px solid #e67e22; border-radius: 8px; padding: 16px 18px; color: var(--muted); font-size: .92rem; margin-top: 30px; }
+  footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 50px 0 30px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>RZ<span>launcher</span></h1>
+    <p class="sub">Minecraft uchun qulay va chiroyli launcher: versiyalar, modlar, skin va serverlar bir joyda.</p>
+    <a class="btn" href="https://github.com/riyouz89-hue/RZlauncher/releases/download/v1.0/RZlauncher.zip">⬇ Yuklab olish (Windows)</a>
+    <p class="meta">Versiya 1.0 &nbsp;•&nbsp; Windows 10/11</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <h2>Imkoniyatlar</h2>
+  <div class="grid">
+    <div class="card"><b>🎯 Versiya tanlash</b><p>Release, Snapshot, Beta va Alpha versiyalar. Qidiruv va filtr bilan.</p></div>
+    <div class="card"><b>🧩 Forge &amp; Fabric</b><p>Modloaderni bir bosishda o'rnating.</p></div>
+    <div class="card"><b>👕 Shaxsiy skin</b><p>O'z .png skiningizni tanlang, o'yinda ko'rinadi.</p></div>
+    <div class="card"><b>🌐 Serverlar</b><p>Sevimli serverlar ro'yxati va tezkor ulanish.</p></div>
+  </div>
+
+  <h2>O'rnatish</h2>
+  <ol>
+    <li>Yuqoridagi tugma orqali ZIP faylni yuklab oling.</li>
+    <li>ZIP ni istalgan papkaga oching.</li>
+    <li><b>RZlauncher.exe</b> ni ishga tushiring, nickname yozing, versiyani tanlang va <b>O'YINNI BOSHLASH</b> ni bosing.</li>
+  </ol>
+
+  <div class="note">
+    Windows yoki antivirus birinchi ishga tushirishda ogohlantirish ko'rsatishi mumkin. Bu yangi, imzolanmagan dasturlar uchun odatiy holat.
+    Davom etish uchun "More info" → "Run anyway" ni bosing.
+  </div>
+</main>
+
+<footer>© RZlauncher</footer>
+
+</body>
+</html>
